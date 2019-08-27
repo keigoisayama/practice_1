@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="utf-8"> 
+       <title>product</title>
+       <link rel="stylesheet" href="normalize.css">
+       <link rel="stylesheet" href="product.css">       
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="header-left">
+                    <a href="/Users/intern01/Documents/isayama/hanahzo-demo/index.html"><img class="logo" src="/Users/intern01/Documents/isayama/hanahzo-demo/img/toplogo.png"></a>
+                    <a href="/Users/intern01/Documents/isayama/hanahzo-demo/bathroom.html">BATHROOM</a>
+                    <a href="/Users/intern01/Documents/isayama/hanahzo-demo/product.html">PRODUCT</a>
+                    <a href="">LOOKBOOK</a>
+                    <a href="">NOTICE</a>
+                </div>    
+                <div class="header-right">
+                    <a href="">LOGIN</a>
+                    <a href="">JOIN</a>
+                    <a href="">MYPAGE</a>
+                    <a href=""><img class="cart" src="/Users/intern01/Documents/isayama/hanahzo-demo/img/btn_cart.png"></a>
+                </div>
+            </div>
+        </header>
+
+        <nav>
+            <ul class="header-menu1">
+                <li><a href="">ALL</a></li>
+                <li><a href="">SOAP</a></li>
+                <li><a href="">SHAMPOO</a></li>
+                <li><a href="">HOME FASHION</a></li>
+                <li><a href="">GIFT SET</a></li>
+                <li><a href="">LIMITED EDITION</a></li>
+                <li><a href="">답례품</a></li>
+                <li><a href="">개인결제창</a></li>
+            </ul>
+            <ul class="header-menu2">
+                <li><a href="">SEARCH<img class="search-btn" src="/Users/intern01/Documents/isayama/hanahzo-demo/img/btn_search.jpg"></a></li>
+            </ul>    
+        </nav>
+
+        <main>
+            <div class="main-contents">
+                <ul class="products">
+                    <li><img class="product-logo" src="/Users/intern01/Documents/isayama/hanahzo-demo/img/product-logo.jpg"></li>
+                    <li class="box"><p class="box-text">hanahzo</p></li>
+                    <li class="box"><p class="box-text">hanahzo</p></li>
+                    <li class="box"><p class="box-text">hanahzo</p></li>
+                    <li class="box"><p class="box-text">hanahzo</p></li>
+                    <li class="box"><p class="box-text">hanahzo</p></li>
+                    <li class="box"><p class="box-text">hanahzo</p></li>
+                    <li class="box"><p class="box-text">hanahzo</p></li>
+                    <li class="box"><p class="box-text">hanahzo</p></li>
+                    <li class="box"><p class="box-text">hanahzo</p></li>
+                    <li class="box"><p class="box-text">hanahzo hanahzo hanahzo hanzhzo aaa aaa hanahzo</p></li>
+                    <li class="box"><p class="box-text">hanahzo</p></li>
+                    <li class="box"><p class="box-text">hanahzo</p></li>
+                    <li class="box"><p class="box-text">hanahzo</p></li>
+                </ul>
+            </div>
+        </main>
+
+        <footer>
+            <div>
+                <div class="SNS">
+                    <a href=""><img class="sns" src="/Users/intern01/Documents/isayama/hanahzo-demo/img/sns05.png"></a>
+                </div>
+                <div class="outline">
+                    <a href="">COMPANY</a>
+                    <a href="">AGREEMENT</a>
+                    <a href="">GUIDE</a>
+                    <a href="">PRIVACY POLICY</a>
+                </div>
+                <div class="address">
+                    <ul class="line1">
+                        <li>COMPANY 한아조</li>
+                        <li>OWNER 조한아</li>
+                        <li>TEL 02-3785-0120</li>
+                        <li>E-MAIL hanah@hanahzo.com</li>
+                    </ul>
+                    <ul class="line2">
+                        <li>BUSINESSNUMBER 201-18-17190</li>
+                        <li>MAIL-ORDER LICENSE 제2015-서울용산-00656 [사업자정보확인]</li>    
+                    </ul>
+                    <ul class="line3">
+                        <li>ADDERES 04783 서울특별시 성동구 연무장길 89 (성수동2가) 4층,우측</li>
+                    </ul>
+                    <ul class="line4">
+                        <li>Copyright © 한아조. All rights reserved.</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <script src="/Users/intern01/Documents/isayama/jquery-3.4.1.min.js"></script>
+
+        <script>
+            var $products = $('.products'),   
+                emptyboxes = [], i;
+
+            for (i = 0; i < $products.find('.box').length; i++) {
+                emptyboxes.push($('<li>', { class: 'box dummy' }));
+            }
+
+            $products.append(emptyboxes);
+        </script>
+
+    </body>
+</html>

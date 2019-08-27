@@ -1,0 +1,117 @@
+body{
+    margin:0;
+    font-family:Avenir;
+}
+
+header {
+    padding: 23px;
+}
+
+main{
+    scroll-snap-type: y mandatory;
+}
+
+main img{
+    display: block;
+    width: 100%;
+    overflow: scroll;
+    scroll-snap-align: start;
+    height: 100vh;
+    object-fit: cover;
+}
+
+a, li{
+    text-decoration: none;
+    color:#000;
+    list-style: none;
+}
+
+header{
+    background-color:transparent;
+    color:#000;
+    width:100%;
+    z-index:10;
+    position:fixed;
+    top:0;
+    left:0;
+    font-size:12px;
+    box-sizing: border-box;
+}
+
+header a{
+    padding:0 7px;
+}
+
+header a:hover{
+    opacity: 0.6;
+}
+
+.header-left{
+    float:left;
+    display:flex;
+    align-items: center;
+}
+
+.header-right{
+    float:right;
+    line-height: 100%;
+    display: flex; 
+    align-items: center;
+}
+
+.logo{
+    margin-right: 23px;
+}
+
+.sns:hover{
+    opacity: 0.6;
+}
+
+.outline a:hover{
+    border-bottom: 1px solid #000;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    box-sizing: border-box;
+    bottom: 0;
+    background-image: url("/Users/intern02/Documents/isayama/hanahzo-demo/img/main03.jpg");
+    background-position: center;
+    height: 1048vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 25px; 
+}
+
+footer a{
+    padding:0 8px;
+}
+
+.address li{
+    display: inline-block;
+}
+
+.line1 li{
+    padding: 0 5px;
+}
+
+.line2 li{
+    padding: 0 5px;
+}
+
+.sns{
+    padding: 20px;
+    display: inline-block;
+}
+
+.outline{
+    padding-bottom: 20px;
+}
+
+ul{
+    padding-inline-start: 0;
+}
+

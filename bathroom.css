@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    font-family: Avenir;
+}
+
+a, li{
+    text-decoration: none;
+    color: #000;
+    list-style: none;
+}
+
+header{
+    background-color: transparent;
+    color: #000;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 23px;
+}
+
+header a{
+    padding: 0 7px;
+}
+
+header a:hover{
+    opacity: 0.6;
+}
+
+.header-left{
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.header-right{
+    float: right;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-right: 23px;
+}
+
+.sns:hover{
+    opacity: 0.6;
+}
+
+.outline a:hover{
+    border-bottom: 1px solid #000;
+}
+
+main{
+    width: 100%;
+}
+
+.bathroomimg{
+    width: 100%;
+}
+
+.bathroomimg img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 150px auto;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    box-sizing: border-box;
+    bottom: 0;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 25px; 
+}
+
+footer a{
+    padding:0 8px;
+}
+
+.address li{
+    display: inline-block;
+}
+
+.line1 li{
+    padding: 0 5px;
+}
+
+.line2 li{
+    padding: 0 5px;
+}
+
+.sns{
+    padding: 20px;
+    display: inline-block;
+}
+
+.outline{
+    padding-bottom: 20px;
+}
+
+ul{
+    padding-inline-start: 0;
+}
+

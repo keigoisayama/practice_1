@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    font-family: Avenir;
+}
+
+header {
+    padding: 23px;
+}
+
+a, li{
+    text-decoration: none;
+    color: #000;
+    list-style: none;
+}
+
+header{
+    background-color: transparent;
+    color: #000;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+header a{
+    padding: 0 7px;
+}
+
+header a:hover{
+    opacity: 0.6;
+}
+
+.header-left{
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.header-right{
+    float: right;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    background-color: transparent;
+    position: fixed;
+    z-index: 10;
+    top: 170px;
+    left: 10px;
+    width: 15%;
+    box-sizing: border-box;
+}
+
+nav a:hover{
+    opacity: 0.6;
+}
+
+.header-menu1{
+    line-height: 21px;
+    font-size: 11px;
+}
+
+.header-menu2{
+    padding-top: 17px;
+    font-size: 11px;
+}
+
+.search-btn{
+    margin-left: 5px;
+}
+
+.logo{
+    margin-right: 23px;
+}
+
+.main-contents{
+    display: block;
+    margin: 180px auto;
+    width: 60%;
+    height: auto;
+    justify-content: center;
+}
+
+.products{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    background-color: #FFF5EE;
+    position: relative;
+}
+
+.box-text{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    opacity: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color: lightsalmon;
+    text-align: center;
+    line-height: 250px;
+}
+
+.box:hover .box-text{
+    opacity: 1;
+    background: #00011122;
+    transition: .3s;
+}
+  
+.box.dummy{
+    height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+  
+.product-logo{
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+}
+
+.sns:hover{
+    opacity: 0.6;
+}
+
+.outline a:hover{
+    border-bottom: 1px solid #000;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    box-sizing: border-box;
+    bottom: 0;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 25px; 
+}
+
+footer a{
+    padding:0 8px;
+}
+
+.address li{
+    display: inline-block;
+}
+
+.line1 li{
+    padding: 0 5px;
+}
+
+.line2 li{
+    padding: 0 5px;
+}
+
+.sns{
+    padding: 20px;
+    display: inline-block;
+}
+
+.outline{
+    padding-bottom: 20px;
+}
+
+footer ul{
+    padding-inline-start: 0;
+}
+
